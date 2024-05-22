@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element defining the module type and version -->
+<module type="JAVA_MODULE" version="4">
+  <!-- Component that manages the module's roots, including source and output directories -->
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <!-- Element that specifies output directories should be excluded from the module -->
+    <exclude-output />
+    <!-- Element that defines the content root of the module -->
+    <content url="file://$MODULE_DIR$">
+      <!-- Source folder within the content root; isTestSource="false" indicates it is not a test source directory -->
+      <sourceFolder url="file://$MODULE_DIR$/main2/src" isTestSource="false" />
+    </content>
+    <!-- Order entry that specifies the module uses the inherited JDK -->
+    <orderEntry type="inheritedJdk" />
+    <!-- Order entry that specifies the module has a source folder, not a test folder -->
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
